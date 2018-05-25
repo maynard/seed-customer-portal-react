@@ -25,7 +25,7 @@ class Header extends Component {
 		      <ul id="nav-mobile" className="right hide-on-med-and-down">
 		        <li><Link to='/home/dashboard'>Dashboard</Link></li>
 		        <li><Link to='/home/dashboard/account'>Account Activity</Link></li>		        
-		        <li><a href="/login">Logout</a></li>
+		        <li><a href="/">Logout</a></li>
 		        <li><img alt="logo" height='50px' src={require('../images/user.png')} /></li>
 		      </ul>
 		    </div>
